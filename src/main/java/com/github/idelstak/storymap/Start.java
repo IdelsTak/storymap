@@ -7,14 +7,14 @@ import java.util.List;
 
 public class Start {
 
-    public static void main(String[] args) throws FileNotFoundException {
-        String pathName = System.getProperty("user.dir") + File.separator + "game-story-map.csv";
-        File csvFile = Paths.get(pathName).toFile();
-        List<Node> nodes = new CsvToNodes().apply(csvFile);
-        
-         // StoryMap storyMap = new StoryMapConsole(nodes);
-        StoryMap storyMap = new StoryMapSwing(nodes);
+public static void main(String[] args) throws FileNotFoundException {
+    String pathName = System.getProperty("user.dir") + File.separator + "game-story-map.csv";
+    File csvFile = Paths.get(pathName).toFile();
+    List<Node> nodes = new CsvToNodes().apply(csvFile);
 
-        storyMap.show();
-    }
+     // StoryMap storyMap = new StoryMapConsole(nodes);
+    StoryMap storyMap = new StoryMapSwing(nodes);
+
+    storyMap.show();
+}
 }
