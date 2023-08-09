@@ -1,0 +1,52 @@
+0,1,2,You come across a cave enterance with obvious signs of passage. As you enter the cave you are faced by a simple Goblin with a spear.,Attack or Defend?
+1,5,5,You Attack and kill the Goblin with your ice dagger spell.,-
+2,4,3,The goblin attacks you and your defence breaks the goblins spear,Attack or Defend?
+3,5,5,The goblin flees down the tunnel.,-
+4,5,5,You Attack and kill the Goblin with your ice dagger spell.,-
+5,7,6,The tunnel the goblin was guarding is before you do you:,Walk cautiously or rush ahead
+6,50,50,The tunnel had a trap which you have activatred and due to your mage robes you fail to avoid,-
+7,8,8,You notice the trap and avoid it artfully before carrying on,-
+8,9,20,You enter a room with a Glowing golden chest in the centre of the room.,Walk around chest or approach
+9,10,10,You walk around the chest and continue on down the tunnel.,-
+10,11,15,You walk down the tunnel and are faced with a left branch or right branch,Left or Right
+11,12,13,You take the left branch and come to another room containing a Troll it rushes to attack you!,Attack or Defend
+12,50,50,You throw an Ice dagger at the Troll which it shrugs off before beating you to a pulp.,-
+13,12,14,You raise you magic Shield the Trolls attacks bounce off but you feel you cannot take another attack.,Attack or Defend
+14,50,50,You raise you magic Shield again and the Trolls attacks breaking your shield before beating you to a pulp.,-
+15,18,16,You take the right branch and come to another room containing a Naga it rushes to attack you!,Attack or Defend
+16,18,17,You raise you magic Shield the Nagas attacks bounce off but you feel you cannot take another attack.,Attack or Defend
+17,50,50,You raise you magic Shield again and the Naga attacks breaking your shield before beating you to a pulp.,-
+18,19,19,You throw an Ice dagger at the Naga killing it!,-
+19,46,11,You carry on pass the Naga down the tunnel seeing a branch back to the left or straight in front.,Front or left?
+20,21,22,You approach the chest. ,Check chest for traps or open chest
+21,20,20,You check the chest and cannot find any traps,-
+22,23,24,You open the chest and find a magic sword of fire.,Take or leave sword
+23,10,10,You leave the sword and carry on down the tunnel,-
+24,25,25,You take the sword and carry on down the tunnel,-
+25,26,39,You walk down the tunnel and are faced with a left branch or right branch,Left or Right
+26,27,31,You take the left branch and come to another room containing a Troll it rushes to attack you!,Attack or Defend
+27,28,29,How do you attack?,Ice Dagger Spell or Sword of Fire?
+28,50,50,You throw an Ice dagger at the Troll which it shrugs off before beating you to a pulp.,-
+29,30,30,You strike with your Sword of Fire killing the troll.,-
+30,46,32,You carry on pass the Troll down the tunnel seeing a branch back to the Right or straight in front.,Front or Right
+31,27,14,You raise you magic Shield theTrolls attacks bounce off but you feel you cannot take another attack.,Attack or Defend
+32,35,33,You take the right branch and come to another room containing a Naga it rushes to attack you!,Attack or Defend
+33,35,34,You raise you magic Shield the Nagas attacks bounce off but you feel you cannot take another attack.,Attack or Defend
+34,50,50,You raise you magic Shield again and the Naga attacks breaking your shield before beating you to a pulp.,-
+35,37,36,How do you attack?,Ice Dagger Spell or Sword of Fire?
+36,50,50,You strike the Naga with your Sword of Fire which it shrugs off before beating you to a pulp.,-
+37,38,38,You throw an Ice dagger at the Naga killing it!,-
+38,46,46,You carry on pass the Naga down the tunnel seeing a branch back to the Troll or straight in front.,-
+39,42,40,You take the right branch and come to another room containing a Naga it rushes to attack you!,Attack or Defend
+40,42,41,You raise you magic Shield the Nagas attacks bounce off but you feel you cannot take another attack.,Attack or Defend
+41,50,50,You raise you magic Shield again and the Naga attacks breaking your shield before beating you to a pulp.,-
+42,44,43,How do you attack?,Ice Dagger Spell or Sword of Fire?
+43,50,50,You strike the Naga with your Sword of Fire which it shrugs off before beating you to a pulp.,-
+44,45,45,You throw an Ice dagger at the Naga killing it!,-
+45,46,26,You carry on pass the Naga down the tunnel seeing a branch back to the left or straight in front.,Front or Left
+46,47,47,You carry on to the Front tunnel,-
+47,48,49,You come across a Huge Red Dragon it notices you and prepares its breath attack on you! Do you...,Run or Attack
+48,50,50,You run back down the tunnel with the flames of the dragon quickly engulfing you causing you to die horribly.,-
+49,50,50,You rush forward to attack the Dragon and are instantly englufed in flames dieing horribly.,-
+50,0,51,You have died!,Play Again or Exit?
+51,0,0,Good Bye,Exit
